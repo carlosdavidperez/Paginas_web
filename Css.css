@@ -1,0 +1,581 @@
+
+
+
+
+
+html {
+  position: relative;
+  pointer-events: fill;
+  
+  background-image: linear-gradient(to left,rgb(181, 150, 185),rgb(0, 110, 255));
+
+  
+
+}
+.color3{
+  filter: blur(3px);  
+  margin:0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50vh;
+  background: url(img/fondo.jpg) center;
+  background-size: cover;
+  top: -700px;
+  position: relative;
+  pointer-events: fill;
+  background-image: linear-gradient(to left,rgb(143, 201, 165),rgb(212, 105, 105));
+   /* background-color: #fff; */
+   padding: 2rem 3rem;
+   text-align: center;
+   color: #fff;
+   border: 3px solid #fff;
+   box-shadow: 0px 0px 25px #222;
+   backdrop-filter: blur(10px);
+}
+.color1{
+  filter: blur(3px);  
+  margin:0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50vh;
+  background: url(img/fondo.jpg) center;
+  background-size: cover;
+  top: -500px;
+  position: relative;
+  pointer-events: fill;
+  background-image: linear-gradient(to left,rgb(240, 128, 128),rgb(216, 158, 158));
+   /* background-color: #fff; */
+   padding: 2rem 3rem;
+   text-align: center;
+   color: #fff;
+   border: 3px solid #fff;
+   box-shadow: 0px 0px 25px #222;
+   backdrop-filter: blur(10px);
+}
+
+
+
+.nombre{
+  
+position: relative;
+top: -550px; 
+left: 170px;
+width: 350px;
+font-family: 'Monaco';
+  color: azure;
+  text-align: center;
+  font-size: 30px;
+  background-repeat: no-repeat;
+  color: beige;
+  animation-duration: 3s;
+  animation-name: slidein;
+  
+  
+  
+}
+
+
+
+
+
+
+
+@keyframes slidein {
+  from {
+    margin-left: 20%;
+    
+  }
+}
+img.redimension{
+  position: relative;
+  left: 10%;
+  width: 300px;
+  height: 300px;
+  vertical-align: text-top; 
+  text-align: center; 
+  margin-left: 20px;
+  border-radius:50%;
+  -webkit-border-radius:50%;
+  box-shadow: 0px 0px 15px 15px #000000;
+  -webkit-box-shadow: 0px 0px 15px 15px #74d4c7;
+  transform: rotate(360deg);
+  -webkit-transform: rotate(360deg);
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -o-transition: all 1s ease;
+
+}
+
+img.redimension1 {
+  position: relative;
+  left: 1000px;
+ top: -270px;
+  vertical-align: text-top; 
+  text-align: center; 
+  margin-left: 20px;
+  border-radius:50%;
+  -webkit-border-radius:50%;
+  box-shadow: 0px 0px 15px 15px #000000;
+  -webkit-box-shadow: 0px 0px 15px 15px #af92cf;
+  height: 300px;
+  width: 300px;
+  margin: 0px 0;
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -o-transition: all 1s ease;
+}
+
+img:hover{
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -o-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1)
+}
+.text{
+  font-family: 'Courier New', Courier, monospace;
+  position: relative;
+  top: -370;
+  left: 10%;
+  width: 600px;
+  height: 100px;
+  background-repeat: no-repeat;
+
+  
+  font-size: 150%;
+  margin-left: 25%;
+  animation-duration: 3s;
+  animation-name: slidein;
+  
+  
+
+}
+
+
+.foto{
+
+  width: 100px;
+  height: 100px;
+ 
+  background-repeat: no-repeat;
+}
+.vida{
+  text-align: center;
+  font-family: 'Monaco';
+  position: relative;
+  top: -310;
+  left: 35%;
+  width: 500px;
+  height: 100px;
+  background-repeat: no-repeat;
+  color: beige;
+  animation-duration: 3s;
+  animation-name: slidein;
+  font-size: 300%;
+  
+
+}
+
+.text1{
+  text-align: center;
+  font-family: 'Monaco';
+  position: relative;
+  width: 500px;
+  height: 100px;
+  background-repeat: no-repeat;
+  color: beige;
+  animation-duration: 3s;
+  animation-name: slidein;
+   top: -600px;
+   left: 250px;
+   font-size: 300%;
+  
+}
+
+.sueños{
+  font-family: 'Courier New', Courier, monospace;
+  position: relative;
+  width: 600px;
+  height: 150px;
+ 
+  top: -650px;
+  left: 0px;
+  font-size: 150%;
+  margin-left: 25%;
+  animation-duration: 3s;
+  animation-name: slidein;
+  
+}
+
+.programador{
+  
+  animation-duration: 3s;
+  animation-name: slidein;
+ font-size: 400%;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  position: relative;
+  top: -100px;
+  left: 0px;
+  font-family: 'Copperplate';
+  
+}
+.icono{
+  animation-duration: 3s;
+  animation-name: slidein;
+  color: rgb(255, 255, 255);
+  position: relative;
+  top: 10px;
+  left: 390px;
+ 
+}
+
+
+a {
+  display: inline-block;
+  width: 50px;
+  text-decoration: none;
+  position: relative;
+  left: 100px;
+  text-align: center;
+  
+  
+}
+
+.scroll-container {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+}
+nav {
+  
+  width: 400px;
+  padding: 10px;
+  border: 0px solid black;
+  position: relative;
+  left: 600px;
+  top: -80px;
+  
+}
+.scroll-container {
+  width: 350px;
+  height: 200px;
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+}
+.scroll-page {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  font-size: 5em;
+}
+
+
+.text2{
+  text-align: center;
+  font-family: 'Monaco';
+  position: relative;
+  top: -1000px;
+  left: 0%;
+  font-size: 300%;
+  background-repeat: no-repeat;
+  color: beige;
+  animation-duration: 3s;
+  animation-name: slidein;
+
+}
+
+.text3
+{
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+  position: relative;
+  top: -970px;
+  left: 0;
+  font-size: 150%;
+  background-repeat: no-repeat;
+  color: rgb(0, 0, 0);
+  animation-duration: 3s;
+  animation-name: slidein;
+
+}
+
+
+.text4{
+  text-align: center;
+  font-family: 'Monaco';
+  position: relative;
+  top: -1200px;
+  left: 0%;
+  font-size: 300%;
+  background-repeat: no-repeat;
+  color: beige;
+  animation-duration: 3s;
+  animation-name: slidein;
+
+}
+
+.text5{
+  text-align: center;
+  font-family: 'Monaco';
+  position: relative;
+  top: -1200px;
+  left: 0%;
+  font-size: 150%;
+  background-repeat: no-repeat;
+  color: rgb(0, 0, 0);
+  animation-duration: 3s;
+  animation-name: slidein;
+}
+ .text6{
+  text-align: center;
+  font-family: 'Monaco';
+  position: relative;
+  top: -1200px;
+  left: 0%;
+  font-size: 150%;
+  background-repeat: no-repeat;
+  color: rgb(0, 0, 0);
+  animation-duration: 3s;
+  animation-name: slidein;
+ }
+
+
+
+
+
+
+.persona{
+  animation-duration: 3s;
+  animation-name: slidein;
+  color: rgb(255, 255, 255);
+  position: relative;
+  top: 10px;
+  left: 390px;
+}
+
+
+
+
+.menu{
+  animation-duration: 3s;
+  animation-name: slidein;
+  color: rgb(255, 255, 255);
+  position: relative;
+  font-size: 15px;
+	list-style: none;
+	padding: 0;
+	background: #242a2b;
+  border-radius: 10px;
+	width: 10%;
+	max-width: 50px;
+	margin: auto;  
+  margin:0;
+  padding: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 3vh;
+  background: url(img/fondo.jpg) center;
+  position: relative;
+  left: 870px;
+  top: -80px;
+  pointer-events: fill;
+ 
+   /* background-color: #fff; */
+   padding: 2rem 3rem;
+   
+   
+}
+  
+
+
+
+.menu li a{
+  
+	text-decoration: none;
+	color: white;
+	padding: 25px;
+	display: block;
+  position: relative;
+
+  text-align: center;
+
+	
+}
+a{
+  
+  text-align: center;
+  font-size: 18px;
+}
+.menu li{
+  
+	display: inline-block;
+	text-align: center;
+  align-content:right;
+}
+
+.menu li a:hover{
+	background: #3d3937;
+  align-content:right;
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.contact_form{	
+	width: 460px; 
+  height: auto;
+  margin: 80px auto;
+	border-radius: 10px;  
+	padding-top: 30px;
+	padding-bottom: 20px;  
+  background-color: #fbfbfb; 
+  padding-left: 30px; 
+  position: relative;
+  top: -1050px;
+}
+
+
+input{
+	background-color: #fbfbfb; 
+	width: 408px; 
+	height: 40px; 
+	border-radius: 5px;  
+	border-style: solid; 
+	border-width: 1px; 
+	border-color: #dd4719; 
+	margin-top: 10px;  
+	padding-left: 10px;
+  margin-bottom: 20px; 
+ 
+  
+}
+
+
+textarea{
+  background-color: #fbfbfb; 
+	width: 405px; 
+	height: 150px; 
+	border-radius: 5px;  
+	border-style: solid; 
+	border-width: 1px; 
+	border-color: #ab4493; 
+	margin-top: 10px;  
+	padding-left: 10px;
+  margin-bottom: 20px; 
+  padding-top: 15px; 
+
+  
+}
+
+
+label{
+  display: block; 
+	float: center;
+   	
+}
+
+
+button{
+	height: 45px; 
+	padding-left: 5px;
+	padding-right: 5px; 	
+	margin-bottom: 20px; 
+	margin-top: 10px; 	
+	text-transform: uppercase;
+	background-color: #ab4493; 
+	border-color: #ab4493; 
+	border-style: solid; 
+	border-radius: 10px;	
+	width: 420px;   
+  cursor: pointer;
+}
+
+
+button p{
+	color: #fff; 
+
+}
+
+
+span{
+	color: #ab4493; 
+}
+
+
+.aviso{
+	font-size: 13px;  
+	color: #0e0e0e;  
+}
+
+
+h1{
+	font-size: 39px;  
+	text-align: letf; 
+	padding-bottom: 20px; 
+	color: #fa8686;
+}
+
+
+h3{
+	font-size: 16px; 
+	padding-bottom: 30px;
+	color: #0e0e0e;   
+}
+
+
+p{
+	font-size: 14px; 
+	color: #0e0e0e; 
+}
+
+
+::-webkit-input-placeholder {
+ color: #a8a8a8;
+}
+
+
+::-webkit-textarea-placeholder {
+ color: #a8a8a8;
+}
+
+
+.formulario input:focus{
+	outline:0;
+	border: 1px solid #97d848;
+}
+
+
+.formulario textarea:focus{
+	outline:0;
+	border: 1px solid #97d848;
+}
+
+.contacto{
+  text-align: center;
+}
+
+
+
